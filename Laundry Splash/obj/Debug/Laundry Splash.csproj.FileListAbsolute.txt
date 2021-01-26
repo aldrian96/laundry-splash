@@ -1,0 +1,13 @@
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.exe.config
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.exe
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.pdb
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csprojAssemblyReference.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form1.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormLogin.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Properties.Resources.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.GenerateResource.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CoreCompileInputs.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.exe
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.pdb
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form3.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.MessageBox.resources
