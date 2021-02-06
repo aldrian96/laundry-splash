@@ -2,12 +2,71 @@ C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.exe
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.pdb
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csprojAssemblyReference.cache
-C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form1.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormLogin.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Properties.Resources.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.GenerateResource.cache
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CoreCompileInputs.cache
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.exe
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.pdb
-C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form3.resources
-C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.MessageBox.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\MySql.Data.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Google.Protobuf.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Zstandard.Net.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Renci.SshNet.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\System.Memory.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\System.Buffers.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\MySql.Data.xml
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.exe.config
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CopyComplete
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormLaporan.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormOutlet.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormProduk.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormRegistrasi.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormTransaksi.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormUser.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.exe.config
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.exe
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Laundry Splash.pdb
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\MySql.Data.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Google.Protobuf.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Zstandard.Net.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\Renci.SshNet.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\System.Memory.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\System.Buffers.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\bin\Debug\MySql.Data.xml
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csprojAssemblyReference.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.exe.config
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form1.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormLogin.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Form3.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormLaporan.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormOutlet.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormProduk.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormRegistrasi.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormTransaksi.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormUser.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.MessageBox.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Properties.Resources.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.GenerateResource.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CoreCompileInputs.cache
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CopyComplete
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.exe
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\backup\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.pdb
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormSplashScreen.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormMainMenu.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Luthor.Lib.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormMessageBox.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Guna.UI.dll
