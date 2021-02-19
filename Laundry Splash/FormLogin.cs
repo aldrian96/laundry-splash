@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Luthor.lib;
+using Luthor.lib.Encryption;
 using MySql.Data.MySqlClient;
 
 
@@ -56,7 +57,7 @@ namespace Laundry_Splash
         {
             if (txtUsername.Text.Length > 0 && txtPassword.Text.Length > 0)
             {
-                if (Auth.Login(txtUsername.Text, txtPassword.Text, "tb_user"))
+                if (Auth.Login(txtUsername.Text, Sha256.Encrypt(txtPassword.Text), "tb_user"))
                 {
                     Form Dashboard = new FormMainMenu();
                     MessageBox.Show("Login Berhasil");
@@ -76,6 +77,14 @@ namespace Laundry_Splash
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin.PerformClick();
+            }
         }
     }
 }

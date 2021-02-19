@@ -268,6 +268,7 @@ namespace Laundry_Splash
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BackColor = System.Drawing.Color.White;
             this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 80);

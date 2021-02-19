@@ -70,3 +70,5 @@ C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Luthor.Lib.dll
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormMessageBox.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Guna.UI.dll
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormAddUser.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormEditUser.resources

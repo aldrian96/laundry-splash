@@ -56,7 +56,6 @@ namespace Laundry_Splash
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     btnCloseChildForm.Visible = true;
-
                 }
             }
         }
