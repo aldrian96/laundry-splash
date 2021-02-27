@@ -29,14 +29,17 @@ namespace Laundry_Splash
         //Method
         private Color SelectThemeColor()
         {
-            int index = random.Next(ThemeColor.ColorList.Count);
+            string color = "#00adb5";
+            return ColorTranslator.FromHtml(color);
+
+            // Random Color
+            /*int index = random.Next(ThemeColor.ColorList.Count);
             while (tempIndex == index)
             {
                 index = random.Next(ThemeColor.ColorList.Count);
             }
             tempIndex = index;
-            string color = ThemeColor.ColorList[index];
-            return ColorTranslator.FromHtml(color);
+            string color = ThemeColor.ColorList[index];*/
         }
 
         private void ActivateButton(object btnSender)
@@ -103,7 +106,7 @@ namespace Laundry_Splash
 
         private void btnProduk_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormProduk(), sender);
+            OpenChildForm(new Forms.FormPaket(), sender);
         }
 
         private void btnPengguna_Click(object sender, EventArgs e)
@@ -115,7 +118,10 @@ namespace Laundry_Splash
         {
             OpenChildForm(new Forms.FormTransaksi(), sender);
         }
-
+        private void btnJenis_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormJenis(), sender);
+        }
         private void btnLaporan_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLaporan(), sender);
@@ -162,7 +168,5 @@ namespace Laundry_Splash
                 btnRegistrasi.Visible = false;
             }
         }
-
-        
     }
 }

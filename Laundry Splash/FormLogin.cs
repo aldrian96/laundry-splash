@@ -57,6 +57,7 @@ namespace Laundry_Splash
         {
             if (txtUsername.Text.Length > 0 && txtPassword.Text.Length > 0)
             {
+
                 if (Auth.Login(txtUsername.Text, Sha256.Encrypt(txtPassword.Text), "tb_user"))
                 {
                     Form Dashboard = new FormMainMenu();
@@ -67,9 +68,21 @@ namespace Laundry_Splash
                 else
                 {
                     MessageBox.Show("Username atau Password salah!");
-                    
                 }
             }
+            else if (txtUsername.Text.Length == 0 && txtPassword.Text.Length == 0) MessageBox.Show("Masukan username dan password", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (txtUsername.Text.Length == 0)
+            {
+                MessageBox.Show("Masukan username", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtUsername.Focus();
+            }
+            else if(txtPassword.Text.Length == 0)
+            {
+                MessageBox.Show("Masukan password", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPassword.Focus();
+            }
+
+
         }
 
         // Membuat Form Login bisa Berpindah pindah

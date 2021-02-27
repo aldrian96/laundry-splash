@@ -56,11 +56,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCRUD\FormAddOutlet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormAddOutlet.Designer.cs">
+      <DependentUpon>FormAddOutlet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCRUD\FormAddPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormAddPelanggan.Designer.cs">
+      <DependentUpon>FormAddPelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCRUD\FormAddPaket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormAddPaket.Designer.cs">
+      <DependentUpon>FormAddPaket.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCRUD\FormAddUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCRUD\FormAddUser.Designer.cs">
       <DependentUpon>FormAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditOutlet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditOutlet.Designer.cs">
+      <DependentUpon>FormEditOutlet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditPaket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditPaket.Designer.cs">
+      <DependentUpon>FormEditPaket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUD\FormEditPelanggan.Designer.cs">
+      <DependentUpon>FormEditPelanggan.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCRUD\FormEditUser.cs">
       <SubType>Form</SubType>
@@ -86,6 +122,12 @@
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormJenis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormJenis.Designer.cs">
+      <DependentUpon>FormJenis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormLaporan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,11 +140,11 @@
     <Compile Include="Forms\FormOutlet.Designer.cs">
       <DependentUpon>FormOutlet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProduk.cs">
+    <Compile Include="Forms\FormPaket.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProduk.Designer.cs">
-      <DependentUpon>FormProduk.cs</DependentUpon>
+    <Compile Include="Forms\FormPaket.Designer.cs">
+      <DependentUpon>FormPaket.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormRegistrasi.cs">
       <SubType>Form</SubType>
@@ -132,8 +174,26 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="FormCRUD\FormAddOutlet.resx">
+      <DependentUpon>FormAddOutlet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUD\FormAddPelanggan.resx">
+      <DependentUpon>FormAddPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUD\FormAddPaket.resx">
+      <DependentUpon>FormAddPaket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCRUD\FormAddUser.resx">
       <DependentUpon>FormAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUD\FormEditOutlet.resx">
+      <DependentUpon>FormEditOutlet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUD\FormEditPaket.resx">
+      <DependentUpon>FormEditPaket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUD\FormEditPelanggan.resx">
+      <DependentUpon>FormEditPelanggan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCRUD\FormEditUser.resx">
       <DependentUpon>FormEditUser.cs</DependentUpon>
@@ -153,8 +213,8 @@
     <EmbeddedResource Include="Forms\FormOutlet.resx">
       <DependentUpon>FormOutlet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProduk.resx">
-      <DependentUpon>FormProduk.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormPaket.resx">
+      <DependentUpon>FormPaket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormRegistrasi.resx">
       <DependentUpon>FormRegistrasi.cs</DependentUpon>

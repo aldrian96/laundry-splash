@@ -31,7 +31,6 @@ namespace Laundry_Splash.FormCRUD
             cbOutlet.ValueMember = "id";
             cbOutlet.DataSource = outlet;
             cbOutlet.StartIndex = -1;
-
         }
 
         private void gunaButtonBack_Click(object sender, EventArgs e)

@@ -26,7 +26,6 @@ C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry Splash.csproj.CopyComplete
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormLaporan.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormOutlet.resources
-C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormProduk.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormRegistrasi.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormTransaksi.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormUser.resources
@@ -72,3 +71,10 @@ C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\bin\Debug\Guna.UI.dll
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormAddUser.resources
 C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormEditUser.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormAddOutlet.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormEditOutlet.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormAddPelanggan.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormEditPelanggan.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormAddPaket.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.Forms.FormPaket.resources
+C:\Users\mhmdsaa\Dropbox\My PC (LAPTOP-95EENQF9)\Documents\Dev\C#\Laundry Splash\Laundry Splash\obj\Debug\Laundry_Splash.FormCRUD.FormEditPaket.resources

@@ -20,7 +20,8 @@ namespace Laundry_Splash
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormSplashScreen());
+            
+            Application.Run(new FormLogin());
 
             // tes koneksi terhubung atau tidak
             //if (Connection.Ping()) Application.Run(new FormLogin());

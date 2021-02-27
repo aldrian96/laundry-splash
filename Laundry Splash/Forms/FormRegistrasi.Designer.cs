@@ -29,237 +29,352 @@ namespace Laundry_Splash.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.label7 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistrasi));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.gunaButtonAdd = new Guna.UI.WinForms.GunaButton();
+            this.dataTbPelanggan = new Guna.UI.WinForms.GunaDataGridView();
+            this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.btnRefresh = new Guna.UI.WinForms.GunaButton();
+            this.gunaButtonSearch = new Guna.UI.WinForms.GunaButton();
+            this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaButtonEdit = new Guna.UI.WinForms.GunaButton();
+            this.gunaButtonDelete = new Guna.UI.WinForms.GunaButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ColumnId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnAlamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnJK = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTelepon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTbPelanggan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label7
+            // gunaButtonAdd
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(397, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(138, 24);
-            this.label7.TabIndex = 70;
-            this.label7.Text = "Form Registrasi";
+            this.gunaButtonAdd.AnimationHoverSpeed = 0.07F;
+            this.gunaButtonAdd.AnimationSpeed = 0.03F;
+            this.gunaButtonAdd.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButtonAdd.BaseColor = System.Drawing.Color.ForestGreen;
+            this.gunaButtonAdd.BorderColor = System.Drawing.Color.Black;
+            this.gunaButtonAdd.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButtonAdd.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButtonAdd.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButtonAdd.ForeColor = System.Drawing.Color.White;
+            this.gunaButtonAdd.Image = ((System.Drawing.Image)(resources.GetObject("gunaButtonAdd.Image")));
+            this.gunaButtonAdd.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonAdd.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButtonAdd.Location = new System.Drawing.Point(26, 18);
+            this.gunaButtonAdd.Name = "gunaButtonAdd";
+            this.gunaButtonAdd.OnHoverBaseColor = System.Drawing.Color.SpringGreen;
+            this.gunaButtonAdd.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButtonAdd.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButtonAdd.OnHoverImage = null;
+            this.gunaButtonAdd.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButtonAdd.Radius = 8;
+            this.gunaButtonAdd.Size = new System.Drawing.Size(60, 55);
+            this.gunaButtonAdd.TabIndex = 54;
+            this.gunaButtonAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonAdd.Click += new System.EventHandler(this.gunaButtonAdd_Click);
             // 
-            // dataGridView1
+            // dataTbPelanggan
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dataTbPelanggan.AllowUserToAddRows = false;
+            this.dataTbPelanggan.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            this.dataTbPelanggan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(401, 47);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(359, 311);
-            this.dataGridView1.TabIndex = 69;
+            this.dataTbPelanggan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataTbPelanggan.BackgroundColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataTbPelanggan.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbPelanggan.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataTbPelanggan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            this.dataTbPelanggan.ColumnHeadersHeight = 50;
+            this.dataTbPelanggan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnId,
+            this.ColumnNama,
+            this.ColumnAlamat,
+            this.ColumnJK,
+            this.ColumnTelepon});
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataTbPelanggan.DefaultCellStyle = dataGridViewCellStyle18;
+            this.dataTbPelanggan.EnableHeadersVisualStyles = false;
+            this.dataTbPelanggan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dataTbPelanggan.Location = new System.Drawing.Point(26, 79);
+            this.dataTbPelanggan.Name = "dataTbPelanggan";
+            this.dataTbPelanggan.ReadOnly = true;
+            this.dataTbPelanggan.RowHeadersVisible = false;
+            this.dataTbPelanggan.RowHeadersWidth = 51;
+            this.dataTbPelanggan.RowTemplate.Height = 24;
+            this.dataTbPelanggan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataTbPelanggan.Size = new System.Drawing.Size(737, 289);
+            this.dataTbPelanggan.TabIndex = 53;
+            this.dataTbPelanggan.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
+            this.dataTbPelanggan.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dataTbPelanggan.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dataTbPelanggan.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dataTbPelanggan.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dataTbPelanggan.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Gray;
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dataTbPelanggan.ThemeStyle.HeaderStyle.Height = 50;
+            this.dataTbPelanggan.ThemeStyle.ReadOnly = true;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.Height = 24;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dataTbPelanggan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataTbPelanggan_CellClick);
             // 
-            // label6
+            // gunaElipse1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(24, 218);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 24);
-            this.label6.TabIndex = 68;
-            this.label6.Text = "label6";
+            this.gunaElipse1.Radius = 20;
+            this.gunaElipse1.TargetControl = this.dataTbPelanggan;
             // 
-            // label5
+            // btnRefresh
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 157);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 24);
-            this.label5.TabIndex = 67;
-            this.label5.Text = "label5";
+            this.btnRefresh.AnimationHoverSpeed = 0.07F;
+            this.btnRefresh.AnimationSpeed = 0.03F;
+            this.btnRefresh.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnRefresh.BorderColor = System.Drawing.Color.Black;
+            this.btnRefresh.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnRefresh.FocusedColor = System.Drawing.Color.Empty;
+            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.Image")));
+            this.btnRefresh.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnRefresh.Location = new System.Drawing.Point(665, 18);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnRefresh.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnRefresh.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnRefresh.OnHoverImage = null;
+            this.btnRefresh.OnPressedColor = System.Drawing.Color.Black;
+            this.btnRefresh.Size = new System.Drawing.Size(40, 40);
+            this.btnRefresh.TabIndex = 60;
+            this.btnRefresh.Visible = false;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
-            // label4
+            // gunaButtonSearch
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 24);
-            this.label4.TabIndex = 66;
-            this.label4.Text = "label4";
+            this.gunaButtonSearch.AnimationHoverSpeed = 0.07F;
+            this.gunaButtonSearch.AnimationSpeed = 0.03F;
+            this.gunaButtonSearch.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButtonSearch.BaseColor = System.Drawing.Color.Khaki;
+            this.gunaButtonSearch.BorderColor = System.Drawing.Color.Black;
+            this.gunaButtonSearch.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButtonSearch.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButtonSearch.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButtonSearch.ForeColor = System.Drawing.Color.White;
+            this.gunaButtonSearch.Image = ((System.Drawing.Image)(resources.GetObject("gunaButtonSearch.Image")));
+            this.gunaButtonSearch.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonSearch.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButtonSearch.Location = new System.Drawing.Point(224, 18);
+            this.gunaButtonSearch.Name = "gunaButtonSearch";
+            this.gunaButtonSearch.OnHoverBaseColor = System.Drawing.Color.Yellow;
+            this.gunaButtonSearch.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButtonSearch.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButtonSearch.OnHoverImage = null;
+            this.gunaButtonSearch.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButtonSearch.Radius = 8;
+            this.gunaButtonSearch.Size = new System.Drawing.Size(60, 55);
+            this.gunaButtonSearch.TabIndex = 59;
+            this.gunaButtonSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonSearch.Click += new System.EventHandler(this.gunaButtonSearch_Click);
             // 
-            // label3
+            // txtSearch
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 101);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 24);
-            this.label3.TabIndex = 65;
-            this.label3.Text = "label3";
+            this.txtSearch.BackColor = System.Drawing.Color.Transparent;
+            this.txtSearch.BaseColor = System.Drawing.Color.White;
+            this.txtSearch.BorderColor = System.Drawing.Color.DimGray;
+            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtSearch.FocusedBorderColor = System.Drawing.SystemColors.Highlight;
+            this.txtSearch.FocusedForeColor = System.Drawing.Color.DimGray;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtSearch.Location = new System.Drawing.Point(290, 18);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.PasswordChar = '\0';
+            this.txtSearch.Radius = 8;
+            this.txtSearch.Size = new System.Drawing.Size(369, 55);
+            this.txtSearch.TabIndex = 58;
+            this.txtSearch.Text = "Cari";
+            this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearch.Visible = false;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
+            this.txtSearch.Leave += new System.EventHandler(this.txtSearch_Leave);
             // 
-            // label2
+            // gunaButtonEdit
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(24, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 24);
-            this.label2.TabIndex = 64;
-            this.label2.Text = "label2";
+            this.gunaButtonEdit.AnimationHoverSpeed = 0.07F;
+            this.gunaButtonEdit.AnimationSpeed = 0.03F;
+            this.gunaButtonEdit.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButtonEdit.BaseColor = System.Drawing.SystemColors.Highlight;
+            this.gunaButtonEdit.BorderColor = System.Drawing.Color.Black;
+            this.gunaButtonEdit.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButtonEdit.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButtonEdit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButtonEdit.ForeColor = System.Drawing.Color.White;
+            this.gunaButtonEdit.Image = ((System.Drawing.Image)(resources.GetObject("gunaButtonEdit.Image")));
+            this.gunaButtonEdit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonEdit.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButtonEdit.Location = new System.Drawing.Point(158, 18);
+            this.gunaButtonEdit.Name = "gunaButtonEdit";
+            this.gunaButtonEdit.OnHoverBaseColor = System.Drawing.Color.DeepSkyBlue;
+            this.gunaButtonEdit.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButtonEdit.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButtonEdit.OnHoverImage = null;
+            this.gunaButtonEdit.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButtonEdit.Radius = 8;
+            this.gunaButtonEdit.Size = new System.Drawing.Size(60, 55);
+            this.gunaButtonEdit.TabIndex = 56;
+            this.gunaButtonEdit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonEdit.Click += new System.EventHandler(this.gunaButtonEdit_Click);
             // 
-            // label1
+            // gunaButtonDelete
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 24);
-            this.label1.TabIndex = 63;
-            this.label1.Text = "label1";
+            this.gunaButtonDelete.AnimationHoverSpeed = 0.07F;
+            this.gunaButtonDelete.AnimationSpeed = 0.03F;
+            this.gunaButtonDelete.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButtonDelete.BaseColor = System.Drawing.Color.Brown;
+            this.gunaButtonDelete.BorderColor = System.Drawing.Color.Aqua;
+            this.gunaButtonDelete.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButtonDelete.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButtonDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButtonDelete.ForeColor = System.Drawing.Color.White;
+            this.gunaButtonDelete.Image = ((System.Drawing.Image)(resources.GetObject("gunaButtonDelete.Image")));
+            this.gunaButtonDelete.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonDelete.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButtonDelete.Location = new System.Drawing.Point(92, 18);
+            this.gunaButtonDelete.Name = "gunaButtonDelete";
+            this.gunaButtonDelete.OnHoverBaseColor = System.Drawing.Color.Red;
+            this.gunaButtonDelete.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButtonDelete.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButtonDelete.OnHoverImage = null;
+            this.gunaButtonDelete.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButtonDelete.Radius = 8;
+            this.gunaButtonDelete.Size = new System.Drawing.Size(60, 55);
+            this.gunaButtonDelete.TabIndex = 55;
+            this.gunaButtonDelete.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonDelete.Click += new System.EventHandler(this.gunaButtonDelete_Click);
             // 
-            // textBox5
+            // pictureBox2
             // 
-            this.textBox5.Location = new System.Drawing.Point(121, 160);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(195, 22);
-            this.textBox5.TabIndex = 62;
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 342);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(800, 108);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 57;
+            this.pictureBox2.TabStop = false;
             // 
-            // textBox4
+            // ColumnId
             // 
-            this.textBox4.Location = new System.Drawing.Point(121, 132);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 22);
-            this.textBox4.TabIndex = 61;
+            this.ColumnId.DataPropertyName = "id";
+            this.ColumnId.HeaderText = "ID";
+            this.ColumnId.MinimumWidth = 6;
+            this.ColumnId.Name = "ColumnId";
+            this.ColumnId.ReadOnly = true;
+            this.ColumnId.Visible = false;
             // 
-            // textBox3
+            // ColumnNama
             // 
-            this.textBox3.Location = new System.Drawing.Point(121, 104);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 22);
-            this.textBox3.TabIndex = 60;
+            this.ColumnNama.DataPropertyName = "nama";
+            this.ColumnNama.HeaderText = "Nama";
+            this.ColumnNama.MinimumWidth = 6;
+            this.ColumnNama.Name = "ColumnNama";
+            this.ColumnNama.ReadOnly = true;
             // 
-            // textBox2
+            // ColumnAlamat
             // 
-            this.textBox2.Location = new System.Drawing.Point(121, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 22);
-            this.textBox2.TabIndex = 59;
+            this.ColumnAlamat.DataPropertyName = "alamat";
+            this.ColumnAlamat.HeaderText = "Alamat";
+            this.ColumnAlamat.MinimumWidth = 6;
+            this.ColumnAlamat.Name = "ColumnAlamat";
+            this.ColumnAlamat.ReadOnly = true;
             // 
-            // textBox1
+            // ColumnJK
             // 
-            this.textBox1.Location = new System.Drawing.Point(121, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 58;
+            this.ColumnJK.DataPropertyName = "jenis_kelamin";
+            this.ColumnJK.HeaderText = "Jenis Kelamin";
+            this.ColumnJK.MinimumWidth = 6;
+            this.ColumnJK.Name = "ColumnJK";
+            this.ColumnJK.ReadOnly = true;
             // 
-            // button4
+            // ColumnTelepon
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(273, 382);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(98, 41);
-            this.button4.TabIndex = 57;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(401, 382);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(98, 41);
-            this.button3.TabIndex = 56;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(531, 382);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 41);
-            this.button2.TabIndex = 55;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(662, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 41);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ColumnTelepon.DataPropertyName = "tlp";
+            this.ColumnTelepon.HeaderText = "No Telepon";
+            this.ColumnTelepon.MinimumWidth = 6;
+            this.ColumnTelepon.Name = "ColumnTelepon";
+            this.ColumnTelepon.ReadOnly = true;
             // 
             // FormRegistrasi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.gunaButtonAdd);
+            this.Controls.Add(this.dataTbPelanggan);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.gunaButtonSearch);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.gunaButtonEdit);
+            this.Controls.Add(this.gunaButtonDelete);
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormRegistrasi";
             this.Text = "Registrasi";
             this.Load += new System.EventHandler(this.FormRegistrasi_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTbPelanggan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private Guna.UI.WinForms.GunaButton gunaButtonAdd;
+        private Guna.UI.WinForms.GunaDataGridView dataTbPelanggan;
+        private Guna.UI.WinForms.GunaElipse gunaElipse1;
+        private Guna.UI.WinForms.GunaButton btnRefresh;
+        private Guna.UI.WinForms.GunaButton gunaButtonSearch;
+        private Guna.UI.WinForms.GunaTextBox txtSearch;
+        private Guna.UI.WinForms.GunaButton gunaButtonEdit;
+        private Guna.UI.WinForms.GunaButton gunaButtonDelete;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnAlamat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnJK;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelepon;
     }
 }

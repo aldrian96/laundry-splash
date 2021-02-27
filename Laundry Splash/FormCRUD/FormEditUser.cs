@@ -31,7 +31,7 @@ namespace Laundry_Splash.FormCRUD
             DataTable dataEdit = Db.Read("tb_user", "*", $"id = {getId}");
             txtNama.Text = dataEdit.Rows[0].Field<string>("nama");
             txtUsername.Text = dataEdit.Rows[0].Field<string>("username");
-            txtPassword.Text = dataEdit.Rows[0].Field<string>("password");
+            //txtPassword.Text = dataEdit.Rows[0].Field<string>("password");
             cbOutlet.DataSource = Db.Read("tb_outlet", "*");
             cbOutlet.DisplayMember = "nama";
             cbOutlet.ValueMember = "id";

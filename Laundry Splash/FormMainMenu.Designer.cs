@@ -32,7 +32,7 @@ namespace Laundry_Splash
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainMenu));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.btnLaporan = new System.Windows.Forms.Button();
+            this.btnJenis = new System.Windows.Forms.Button();
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnPengguna = new System.Windows.Forms.Button();
             this.btnProduk = new System.Windows.Forms.Button();
@@ -45,6 +45,7 @@ namespace Laundry_Splash
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnLaporan = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitlebar.SuspendLayout();
@@ -55,8 +56,9 @@ namespace Laundry_Splash
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnLaporan);
+            this.panelMenu.Controls.Add(this.btnLogout);
+            this.panelMenu.Controls.Add(this.btnJenis);
             this.panelMenu.Controls.Add(this.btnTransaksi);
             this.panelMenu.Controls.Add(this.btnPengguna);
             this.panelMenu.Controls.Add(this.btnProduk);
@@ -88,25 +90,25 @@ namespace Laundry_Splash
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // btnLaporan
+            // btnJenis
             // 
-            this.btnLaporan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLaporan.FlatAppearance.BorderSize = 0;
-            this.btnLaporan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLaporan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLaporan.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnLaporan.Image = ((System.Drawing.Image)(resources.GetObject("btnLaporan.Image")));
-            this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.Location = new System.Drawing.Point(0, 380);
-            this.btnLaporan.Name = "btnLaporan";
-            this.btnLaporan.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnLaporan.Size = new System.Drawing.Size(220, 60);
-            this.btnLaporan.TabIndex = 6;
-            this.btnLaporan.Text = "  Laporan";
-            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLaporan.UseVisualStyleBackColor = true;
-            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            this.btnJenis.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnJenis.FlatAppearance.BorderSize = 0;
+            this.btnJenis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJenis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJenis.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnJenis.Image = ((System.Drawing.Image)(resources.GetObject("btnJenis.Image")));
+            this.btnJenis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnJenis.Location = new System.Drawing.Point(0, 380);
+            this.btnJenis.Name = "btnJenis";
+            this.btnJenis.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnJenis.Size = new System.Drawing.Size(220, 60);
+            this.btnJenis.TabIndex = 6;
+            this.btnJenis.Text = "  Jenis Paket";
+            this.btnJenis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnJenis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnJenis.UseVisualStyleBackColor = true;
+            this.btnJenis.Click += new System.EventHandler(this.btnJenis_Click);
             // 
             // btnTransaksi
             // 
@@ -122,7 +124,7 @@ namespace Laundry_Splash
             this.btnTransaksi.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnTransaksi.Size = new System.Drawing.Size(220, 60);
             this.btnTransaksi.TabIndex = 5;
-            this.btnTransaksi.Text = "  Transaksi";
+            this.btnTransaksi.Text = "  Entri Transaksi";
             this.btnTransaksi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTransaksi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTransaksi.UseVisualStyleBackColor = true;
@@ -162,7 +164,7 @@ namespace Laundry_Splash
             this.btnProduk.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnProduk.Size = new System.Drawing.Size(220, 60);
             this.btnProduk.TabIndex = 3;
-            this.btnProduk.Text = "  Produk";
+            this.btnProduk.Text = "  Paket";
             this.btnProduk.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduk.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProduk.UseVisualStyleBackColor = true;
@@ -250,7 +252,7 @@ namespace Laundry_Splash
             this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
             this.btnCloseChildForm.Name = "btnCloseChildForm";
             this.btnCloseChildForm.Size = new System.Drawing.Size(75, 80);
-            this.btnCloseChildForm.TabIndex = 3;
+            this.btnCloseChildForm.TabIndex = 8;
             this.btnCloseChildForm.UseVisualStyleBackColor = true;
             this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click_1);
             // 
@@ -287,6 +289,26 @@ namespace Laundry_Splash
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // btnLaporan
+            // 
+            this.btnLaporan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLaporan.FlatAppearance.BorderSize = 0;
+            this.btnLaporan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLaporan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaporan.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnLaporan.Image = ((System.Drawing.Image)(resources.GetObject("btnLaporan.Image")));
+            this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporan.Location = new System.Drawing.Point(0, 440);
+            this.btnLaporan.Name = "btnLaporan";
+            this.btnLaporan.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnLaporan.Size = new System.Drawing.Size(220, 60);
+            this.btnLaporan.TabIndex = 8;
+            this.btnLaporan.Text = "  Laporan";
+            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLaporan.UseVisualStyleBackColor = true;
+            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            // 
             // FormMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -316,7 +338,7 @@ namespace Laundry_Splash
 
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnLogout;
-        private System.Windows.Forms.Button btnLaporan;
+        private System.Windows.Forms.Button btnJenis;
         private System.Windows.Forms.Button btnTransaksi;
         private System.Windows.Forms.Button btnPengguna;
         private System.Windows.Forms.Button btnProduk;
@@ -329,5 +351,6 @@ namespace Laundry_Splash
         private System.Windows.Forms.Button btnCloseChildForm;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLaporan;
     }
 }

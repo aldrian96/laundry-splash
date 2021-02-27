@@ -31,17 +31,14 @@ namespace Laundry_Splash.FormCRUD
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditUser));
-            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cbOutlet = new Guna.UI.WinForms.GunaComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cbRole = new Guna.UI.WinForms.GunaComboBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtNama = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEdit = new Guna.UI.WinForms.GunaButton();
@@ -51,20 +48,11 @@ namespace Laundry_Splash.FormCRUD
             this.gunaButtonHeadBar = new Guna.UI.WinForms.GunaButton();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaDragControl2 = new Guna.UI.WinForms.GunaDragControl(this.components);
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.BackColor = System.Drawing.Color.White;
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtPassword.Location = new System.Drawing.Point(41, 270);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(354, 23);
-            this.txtPassword.TabIndex = 51;
             // 
             // label3
             // 
@@ -72,7 +60,7 @@ namespace Laundry_Splash.FormCRUD
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(40, 395);
+            this.label3.Location = new System.Drawing.Point(41, 399);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 23);
@@ -90,7 +78,7 @@ namespace Laundry_Splash.FormCRUD
             this.cbOutlet.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbOutlet.ForeColor = System.Drawing.Color.DarkGray;
             this.cbOutlet.FormattingEnabled = true;
-            this.cbOutlet.Location = new System.Drawing.Point(40, 431);
+            this.cbOutlet.Location = new System.Drawing.Point(41, 435);
             this.cbOutlet.Name = "cbOutlet";
             this.cbOutlet.OnHoverItemBaseColor = System.Drawing.SystemColors.Highlight;
             this.cbOutlet.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -103,7 +91,7 @@ namespace Laundry_Splash.FormCRUD
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(40, 313);
+            this.label1.Location = new System.Drawing.Point(41, 317);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 23);
@@ -125,22 +113,13 @@ namespace Laundry_Splash.FormCRUD
             "admin",
             "kasir",
             "owner"});
-            this.cbRole.Location = new System.Drawing.Point(40, 350);
+            this.cbRole.Location = new System.Drawing.Point(41, 354);
             this.cbRole.Name = "cbRole";
             this.cbRole.OnHoverItemBaseColor = System.Drawing.SystemColors.Highlight;
             this.cbRole.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cbRole.Size = new System.Drawing.Size(355, 31);
             this.cbRole.TabIndex = 39;
             this.cbRole.SelectedIndexChanged += new System.EventHandler(this.cbRole_SelectedIndexChanged);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel1.Location = new System.Drawing.Point(42, 301);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(354, 1);
-            this.panel1.TabIndex = 47;
             // 
             // panel2
             // 
@@ -187,19 +166,6 @@ namespace Laundry_Splash.FormCRUD
             this.label5.Size = new System.Drawing.Size(89, 23);
             this.label5.TabIndex = 46;
             this.label5.Text = "Username";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(38, 243);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 23);
-            this.label2.TabIndex = 48;
-            this.label2.Text = "Password";
             // 
             // panel3
             // 
@@ -329,6 +295,40 @@ namespace Laundry_Splash.FormCRUD
             // 
             this.gunaDragControl2.TargetControl = this;
             // 
+            // txtPassword
+            // 
+            this.txtPassword.BackColor = System.Drawing.Color.White;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtPassword.Location = new System.Drawing.Point(40, 267);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(354, 23);
+            this.txtPassword.TabIndex = 51;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Location = new System.Drawing.Point(36, 240);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 23);
+            this.label2.TabIndex = 53;
+            this.label2.Text = "Password";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.Location = new System.Drawing.Point(41, 298);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(354, 1);
+            this.panel1.TabIndex = 52;
+            // 
             // FormEditUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -336,16 +336,16 @@ namespace Laundry_Splash.FormCRUD
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(435, 610);
             this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbOutlet);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbRole);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnEdit);
@@ -364,18 +364,14 @@ namespace Laundry_Splash.FormCRUD
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
         private Guna.UI.WinForms.GunaComboBox cbOutlet;
         private System.Windows.Forms.Label label1;
         private Guna.UI.WinForms.GunaComboBox cbRole;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI.WinForms.GunaButton btnEdit;
@@ -385,5 +381,8 @@ namespace Laundry_Splash.FormCRUD
         private Guna.UI.WinForms.GunaButton gunaButtonHeadBar;
         private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
         private Guna.UI.WinForms.GunaDragControl gunaDragControl2;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

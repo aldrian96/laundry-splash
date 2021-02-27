@@ -17,13 +17,14 @@ namespace Laundry_Splash.Forms
         public FormUser()
         {
             InitializeComponent();
-            LoadTheme();
+            
         }
 
         public string getId;
 
         private void FormUser_Load(object sender, EventArgs e)
         {
+            LoadTheme();
             readDataUser();
         }
         private void LoadTheme()
@@ -60,14 +61,13 @@ namespace Laundry_Splash.Forms
             dataTbUser.AutoGenerateColumns = false;
             dataTbUser.DataSource = data;
         }
-
         private void txtSearch_Enter(object sender, EventArgs e)
         {
             if (txtSearch.Text == "Cari") txtSearch.ResetText();
-            txtSearch.ForeColor = Color.Black;
+            txtSearch.ForeColor = Color.DarkGray;
         }
 
-        private void txtSearch_Leave(object sender, EventArgs e)
+        private void txtSearch_Leave_1(object sender, EventArgs e)
         {
             if (txtSearch.Text.Length <= 0)
             {
@@ -110,7 +110,12 @@ namespace Laundry_Splash.Forms
 
         private void gunaButtonDelete_Click(object sender, EventArgs e)
         {
-            deleteDataUser();
+            if (!string.IsNullOrEmpty(getId))
+            {
+                deleteDataUser();
+            }
+            else MessageBox.Show("Tolong pilih data yang Ingin Di Hapus!", "PERHATIAN", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            
         }
         private void gunaButtonEdit_Click(object sender, EventArgs e)
         {
@@ -141,7 +146,5 @@ namespace Laundry_Splash.Forms
         {
             readDataUser();
         }
-
-        
     }
 }
