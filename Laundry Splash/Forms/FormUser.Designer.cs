@@ -92,7 +92,7 @@ namespace Laundry_Splash.Forms
             this.dataTbUser.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataTbUser.BackgroundColor = System.Drawing.Color.White;
             this.dataTbUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataTbUser.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbUser.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataTbUser.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Gray;
@@ -145,7 +145,7 @@ namespace Laundry_Splash.Forms
             this.dataTbUser.ThemeStyle.HeaderStyle.Height = 50;
             this.dataTbUser.ThemeStyle.ReadOnly = true;
             this.dataTbUser.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dataTbUser.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbUser.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataTbUser.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dataTbUser.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dataTbUser.ThemeStyle.RowsStyle.Height = 24;

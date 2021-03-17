@@ -109,20 +109,20 @@ namespace Laundry_Splash
             OpenChildForm(new Forms.FormPaket(), sender);
         }
 
-        private void btnPengguna_Click(object sender, EventArgs e)
+        private void btnPengguna_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormUser(), sender);
-        }
-
-        private void btnTransaksi_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.FormTransaksi(), sender);
         }
         private void btnJenis_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormJenis(), sender);
         }
-        private void btnLaporan_Click(object sender, EventArgs e)
+        private void btnTransaksi_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormTransaksi(), sender);
+        }
+
+        private void btnLaporan_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLaporan(), sender);
         }
@@ -161,12 +161,16 @@ namespace Laundry_Splash
                 btnOutlet.Visible = false;
                 btnProduk.Visible = false;
                 btnPengguna.Visible = false;
+                btnJenis.Visible = false;
             }
             if (Session.getUserLogged().Rows[0].Field<string>("role") == "owner") // owner
             {
                 btnTransaksi.Visible = false;
                 btnRegistrasi.Visible = false;
+
             }
         }
+
+        
     }
 }

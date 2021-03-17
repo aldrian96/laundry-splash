@@ -99,5 +99,10 @@ namespace Laundry_Splash
                 btnLogin.PerformClick();
             }
         }
+
+        private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.KeyChar = Char.ToLower(e.KeyChar);
+        }
     }
 }

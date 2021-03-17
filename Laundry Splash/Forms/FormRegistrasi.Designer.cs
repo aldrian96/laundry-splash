@@ -31,11 +31,16 @@ namespace Laundry_Splash.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistrasi));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaButtonAdd = new Guna.UI.WinForms.GunaButton();
             this.dataTbPelanggan = new Guna.UI.WinForms.GunaDataGridView();
+            this.ColumnId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnAlamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnJK = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTelepon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.btnRefresh = new Guna.UI.WinForms.GunaButton();
             this.gunaButtonSearch = new Guna.UI.WinForms.GunaButton();
@@ -43,11 +48,6 @@ namespace Laundry_Splash.Forms
             this.gunaButtonEdit = new Guna.UI.WinForms.GunaButton();
             this.gunaButtonDelete = new Guna.UI.WinForms.GunaButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.ColumnId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNama = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnAlamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnJK = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTelepon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataTbPelanggan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -83,24 +83,24 @@ namespace Laundry_Splash.Forms
             // 
             this.dataTbPelanggan.AllowUserToAddRows = false;
             this.dataTbPelanggan.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            this.dataTbPelanggan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dataTbPelanggan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataTbPelanggan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataTbPelanggan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataTbPelanggan.BackgroundColor = System.Drawing.Color.White;
             this.dataTbPelanggan.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataTbPelanggan.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbPelanggan.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataTbPelanggan.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataTbPelanggan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataTbPelanggan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataTbPelanggan.ColumnHeadersHeight = 50;
             this.dataTbPelanggan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnId,
@@ -108,14 +108,14 @@ namespace Laundry_Splash.Forms
             this.ColumnAlamat,
             this.ColumnJK,
             this.ColumnTelepon});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataTbPelanggan.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataTbPelanggan.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataTbPelanggan.EnableHeadersVisualStyles = false;
             this.dataTbPelanggan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dataTbPelanggan.Location = new System.Drawing.Point(26, 79);
@@ -143,13 +143,54 @@ namespace Laundry_Splash.Forms
             this.dataTbPelanggan.ThemeStyle.HeaderStyle.Height = 50;
             this.dataTbPelanggan.ThemeStyle.ReadOnly = true;
             this.dataTbPelanggan.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dataTbPelanggan.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataTbPelanggan.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataTbPelanggan.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dataTbPelanggan.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dataTbPelanggan.ThemeStyle.RowsStyle.Height = 24;
             this.dataTbPelanggan.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.AliceBlue;
             this.dataTbPelanggan.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dataTbPelanggan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataTbPelanggan_CellClick);
+            // 
+            // ColumnId
+            // 
+            this.ColumnId.DataPropertyName = "id";
+            this.ColumnId.HeaderText = "ID";
+            this.ColumnId.MinimumWidth = 6;
+            this.ColumnId.Name = "ColumnId";
+            this.ColumnId.ReadOnly = true;
+            this.ColumnId.Visible = false;
+            // 
+            // ColumnNama
+            // 
+            this.ColumnNama.DataPropertyName = "nama";
+            this.ColumnNama.HeaderText = "Nama";
+            this.ColumnNama.MinimumWidth = 6;
+            this.ColumnNama.Name = "ColumnNama";
+            this.ColumnNama.ReadOnly = true;
+            // 
+            // ColumnAlamat
+            // 
+            this.ColumnAlamat.DataPropertyName = "alamat";
+            this.ColumnAlamat.HeaderText = "Alamat";
+            this.ColumnAlamat.MinimumWidth = 6;
+            this.ColumnAlamat.Name = "ColumnAlamat";
+            this.ColumnAlamat.ReadOnly = true;
+            // 
+            // ColumnJK
+            // 
+            this.ColumnJK.DataPropertyName = "jenis_kelamin";
+            this.ColumnJK.HeaderText = "Jenis Kelamin";
+            this.ColumnJK.MinimumWidth = 6;
+            this.ColumnJK.Name = "ColumnJK";
+            this.ColumnJK.ReadOnly = true;
+            // 
+            // ColumnTelepon
+            // 
+            this.ColumnTelepon.DataPropertyName = "tlp";
+            this.ColumnTelepon.HeaderText = "No Telepon";
+            this.ColumnTelepon.MinimumWidth = 6;
+            this.ColumnTelepon.Name = "ColumnTelepon";
+            this.ColumnTelepon.ReadOnly = true;
             // 
             // gunaElipse1
             // 
@@ -296,51 +337,11 @@ namespace Laundry_Splash.Forms
             this.pictureBox2.TabIndex = 57;
             this.pictureBox2.TabStop = false;
             // 
-            // ColumnId
-            // 
-            this.ColumnId.DataPropertyName = "id";
-            this.ColumnId.HeaderText = "ID";
-            this.ColumnId.MinimumWidth = 6;
-            this.ColumnId.Name = "ColumnId";
-            this.ColumnId.ReadOnly = true;
-            this.ColumnId.Visible = false;
-            // 
-            // ColumnNama
-            // 
-            this.ColumnNama.DataPropertyName = "nama";
-            this.ColumnNama.HeaderText = "Nama";
-            this.ColumnNama.MinimumWidth = 6;
-            this.ColumnNama.Name = "ColumnNama";
-            this.ColumnNama.ReadOnly = true;
-            // 
-            // ColumnAlamat
-            // 
-            this.ColumnAlamat.DataPropertyName = "alamat";
-            this.ColumnAlamat.HeaderText = "Alamat";
-            this.ColumnAlamat.MinimumWidth = 6;
-            this.ColumnAlamat.Name = "ColumnAlamat";
-            this.ColumnAlamat.ReadOnly = true;
-            // 
-            // ColumnJK
-            // 
-            this.ColumnJK.DataPropertyName = "jenis_kelamin";
-            this.ColumnJK.HeaderText = "Jenis Kelamin";
-            this.ColumnJK.MinimumWidth = 6;
-            this.ColumnJK.Name = "ColumnJK";
-            this.ColumnJK.ReadOnly = true;
-            // 
-            // ColumnTelepon
-            // 
-            this.ColumnTelepon.DataPropertyName = "tlp";
-            this.ColumnTelepon.HeaderText = "No Telepon";
-            this.ColumnTelepon.MinimumWidth = 6;
-            this.ColumnTelepon.Name = "ColumnTelepon";
-            this.ColumnTelepon.ReadOnly = true;
-            // 
             // FormRegistrasi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gunaButtonAdd);
             this.Controls.Add(this.dataTbPelanggan);

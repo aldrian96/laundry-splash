@@ -41,13 +41,13 @@ namespace Laundry_Splash.FormCRUD
         // CREATE
         private void gunaButtonTambah_Click(object sender, EventArgs e)
         {
-            if (isFilled())
+            if (isFilled() && isUsernameValid())
             {
                 var nama = txtNama.Text;
                 var username = txtUsername.Text;
                 var password = Sha256.Encrypt(txtPassword.Text);
-                var outlet = "null";
-                if (cbRole.SelectedIndex == 1) outlet = cbOutlet.SelectedValue.ToString();
+                var outlet = cbOutlet.SelectedValue.ToString();
+                /*if (cbRole.SelectedIndex == 1) outlet = cbOutlet.SelectedValue.ToString();*/
                 var role = cbRole.Text;
                 if (Db.Insert("tb_user", $"null, '{nama}','{username}','{password}', {outlet},'{role}'"))
                 {
@@ -55,11 +55,12 @@ namespace Laundry_Splash.FormCRUD
                     btrf.PerformClick();
                     this.Hide();
                 }
-                else 
+                else
                 {
                     MessageBox.Show($"Gagal Menambah User. \n\n ERROR MESSAGE: \n {Error.error_msg}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                } 
+                }
             }
+            else MessageBox.Show("Tolong isi Field yang kosong");
         }
 
         private bool isFilled()
@@ -68,7 +69,7 @@ namespace Laundry_Splash.FormCRUD
             return false;
         }
 
-        private void cbRole_SelectedIndexChanged(object sender, EventArgs e)
+        /*private void cbRole_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbRole.SelectedIndex == 1)
             {
@@ -78,6 +79,23 @@ namespace Laundry_Splash.FormCRUD
             {
                 cbOutlet.Enabled = false;
             }
+        }*/
+
+        private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.KeyChar = Char.ToLower(e.KeyChar);
+        }
+
+        private bool isUsernameValid()
+        {
+            if (txtUsername.Text.Contains(" ")) return false;
+            return true;
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            if (isUsernameValid()) labelKS.Visible = false;
+            else labelKS.Visible = true;
         }
     }
 }

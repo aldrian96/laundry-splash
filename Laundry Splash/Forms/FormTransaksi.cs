@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Laundry_Splash.FormCRUD;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,8 +34,19 @@ namespace Laundry_Splash.Forms
                     btn.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
                 }
             }
-            label7.ForeColor = ThemeColor.SecondaryColor;
-            label6.ForeColor = ThemeColor.PrimaryColor;
+            
+        }
+
+        private void gunaButtonAdd_Click(object sender, EventArgs e)
+        {
+            Form buatTransaksi = new FormAddTransaksi();
+            buatTransaksi.ShowDialog();
+            
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -45,6 +45,7 @@ namespace Laundry_Splash.FormCRUD
                     MessageBox.Show($"Gagal Menambah Pelanggan. \n\n ERROR MESSAGE: \n {Error.error_msg}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            else MessageBox.Show("Tolong isi Field yang kosong!");
         }
 
         private bool isFilled()

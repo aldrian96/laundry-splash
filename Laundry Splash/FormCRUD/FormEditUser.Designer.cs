@@ -119,7 +119,6 @@ namespace Laundry_Splash.FormCRUD
             this.cbRole.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cbRole.Size = new System.Drawing.Size(355, 31);
             this.cbRole.TabIndex = 39;
-            this.cbRole.SelectedIndexChanged += new System.EventHandler(this.cbRole_SelectedIndexChanged);
             // 
             // panel2
             // 
